@@ -23,6 +23,8 @@ return {
     lazy = true, -- do not load at startup
     opts = {
       backend = 'kitty', -- whatever backend you would like to use
+      processor = "magick_cli",
+      rocks = { enabled = false},
       max_width = 100,
       max_height = 12,
       max_height_window_percentage = math.huge,
