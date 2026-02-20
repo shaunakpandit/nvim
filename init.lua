@@ -104,6 +104,9 @@ vim.o.relativenumber = true
 -- Keep signcolumn on by default
 vim.o.signcolumn = 'yes'
 
+-- disable dumb swap files
+vim.o.swapfile = false
+
 -- disable text wrapping except for in markdown or text files
 vim.o.wrap = false
 vim.api.nvim_create_autocmd('FileType', {
