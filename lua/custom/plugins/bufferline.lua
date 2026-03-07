@@ -27,7 +27,7 @@ return {
 
     -- config runs once the plugin has been loaded
     config = function()
-      local bg = '#191d23' -- replace with your @thm_bg var or actual HEX
+      local bg = '#000000' -- replace with your @thm_bg var or actual HEX
       local fg = '#CCD5E5' -- optional: if you want a default fg
 
       vim.opt.termguicolors = true

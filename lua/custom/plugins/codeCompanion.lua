@@ -64,7 +64,7 @@ return {
         chat = {
           adapter = {
             name = 'openai',
-            model = 'o4-mini',
+            model = 'gpt-5.2',
           },
           keymaps = {
             options = {

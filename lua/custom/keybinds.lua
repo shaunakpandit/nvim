@@ -1,5 +1,4 @@
--- movement
-vim.api.nvim_set_keymap('i', 'jk', '<Esc>', { noremap = false })
+-- movement vim.api.nvim_set_keymap('i', 'jk', '<Esc>', { noremap = false })
 vim.api.nvim_set_keymap('v', 'jk', '<Esc>', { noremap = false })
 vim.keymap.set('n', '<S-h>', ':bprevious<CR>', { noremap = true, silent = true })
 vim.keymap.set('n', '<S-l>', ':bnext<CR>', { noremap = true, silent = true })
@@ -68,17 +67,6 @@ vim.keymap.set('n', '<leader>g', '<nop>', { desc = '🐙 Git' })
 vim.keymap.set('n', '<leader>m', '<nop>', { desc = '🔥 Molten' })
 vim.keymap.set('n', '<leader>u', '<nop>', { desc = '🍪 Snacks' })
 vim.keymap.set('n', '<leader>x', '<nop>', { desc = '🚨 Trouble' })
-
--- SETTING THIS IN QUARTRO.NVIM file
--- local runner = require 'quarto.runner'
--- vim.keymap.set('n', '<leader>Rc', runner.run_cell, { desc = 'run cell', silent = true })
--- vim.keymap.set('n', '<leader>rca', runner.run_above, { desc = 'run cell and above', silent = true })
--- vim.keymap.set('n', '<leader>ra', runner.run_all, { desc = 'run all cells', silent = true })
--- vim.keymap.set('n', '<leader>rl', runner.run_line, { desc = 'run line', silent = true })
--- vim.keymap.set('v', '<leader>r', runner.run_range, { desc = 'run visual range', silent = true })
--- vim.keymap.set('n', '<leader>RA', function()
---   runner.run_all(true)
--- end, { desc = 'run all cells of all languages', silent = true })
 
 -- Molten
 vim.keymap.set('n', '<leader>mi', function()

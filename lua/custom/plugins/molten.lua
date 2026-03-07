@@ -5,7 +5,6 @@ return {
     lazy = true, -- do not load at startup
     ft = {
       'markdown', -- *.md
-      'norg', -- Neorg
       'qmd',
       'quarto', -- Quarto (.qmd → filetype may be 'qmd' or 'quarto')
     },
